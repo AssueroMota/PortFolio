@@ -1,0 +1,44 @@
+/* SafariHeader.css */
+.safari-header {
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #ededed;
+    padding: 4px 16px;
+    width: -webkit-fill-available;
+    border-radius: 25px 25px 0px 0px;
+  }
+  @media (max-width:320px) {
+    .safari-header{
+        width: -webkit-fill-available;
+        width: 300px;
+    }
+  }
+  
+  .left-buttons {
+    display: flex;
+    display: none;
+  }
+  
+  .right-buttons {
+    display: flex;
+  }
+  
+  .button {
+    width: 14px;
+    height: 14px;
+    background-color: #9e9e9e;
+    border-radius: 50%;
+    margin: 0 6px;
+  }
+  
+  .circle {
+    width: 8px;
+    height: 8px;
+    background-color: #9e9e9e;
+    border-radius: 50%;
+    margin: 0 4px;
+  }
+  
+  
+  

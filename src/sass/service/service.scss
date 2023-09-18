@@ -1,0 +1,86 @@
+.Service-container {
+    @media (min-width:1024px) {
+        margin-left: 32px;
+        margin-top: 256px;
+        
+    }
+
+
+    .Service-h2 {
+        color: var(--purple__default, #7A4FEE);
+        text-align: center;
+        font-family: Mr Eaves XL Mod OT;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 1.2px;
+        margin-bottom: 32px;
+
+        @media (min-width:1024px) {
+            text-align: start;
+            color: var(--purple__default, #7A4FEE);
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 64px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            /* 64px */
+            letter-spacing: 1.6px;
+        }
+    }
+
+    .Service-container-main {
+        display: flex;
+        column-gap: 2rem;
+        max-width: 819px;
+        margin-right: 504px;
+
+        .Service-container-2 {
+
+            @media (min-width:1024px) {
+                display: flex;
+            }
+
+            .Service-container-main-2 {
+
+
+                .Service-title {
+                    color: var(--white, #E6F4F2);
+                    text-align: center;
+                    font-family: Mr Eaves XL Mod OT;
+                    font-size: 21px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 165%;
+                    letter-spacing: 0.525px;
+                    margin-bottom: 1rem;
+
+                    @media (min-width:1024px) {
+                        text-align: start;
+                        width: 597px;
+                        min-height: 35px;
+                    }
+                }
+
+                .Service-describe {
+                    color: var(--white, #E6F4F2);
+                    text-align: center;
+                    font-family: Mr Eaves XL Mod OT;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 165%;
+                    letter-spacing: 0.4px;
+                    margin-bottom: 32px;
+
+                    @media (min-width:1024px) {
+                        text-align: start;
+                        width: 597px;
+                        min-height: 52px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,136 @@
+.header-container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: -webkit-fill-available;
+    height: 84px;
+    font-family: 'Mr Eaves XL Mod OT', sans-serif;
+    overflow-x: hidden;
+    .header-logo {
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        @media (max-width:1024px) {
+            margin-right: 33.7px;
+            margin-left: 1rem;
+        }
+        .header-symbol {
+            width: 70px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+        .header-type {
+            width: 97.335px;
+            height: 33.878px;
+            flex-shrink: 0;
+            margin-left: 6.96px;
+            @media (max-width:424px) {
+                display: none;
+            }
+        }
+
+    }
+
+    .header-notepad {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+
+        @media (max-width:1024px) {
+            display: none;
+        }
+
+        .header-bullet {
+            width: 15px;
+            height: 15px;
+        }
+
+        .header-note {
+            color: var(--white, #E6F4F2);
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 100%;
+            /* 15px */
+            letter-spacing: 0.375px;
+        }
+    }
+
+    .header-container-2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .header-contact-number {
+            display: flex;
+            align-items: center;
+            column-gap: 8px;
+            margin-right: 40px;
+            @media (max-width:1024px) {
+                display: none;
+            }
+            .header-what {
+                width: 25px;
+                height: 25px;
+                flex-shrink: 0;
+            }
+
+            .header-number-tel {
+                color: var(--white, #E6F4F2);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 100%;
+                letter-spacing: 0.45px;
+
+            }
+        }
+
+
+        .header-btn {
+            display: inline-flex;
+            padding: 16px;
+            align-items: center;
+            gap: 16px;
+            border-radius: 10px;
+            border: 1px solid var(--purple__black, #452796);
+            background: var(--purple__default, #7A4FEE);
+            margin-right: 40px;
+            @media (max-width:1024px) {
+                
+                margin-right: 1rem; 
+            }
+
+            .header-send {
+                width: 20px;
+                height: 20px;
+            }
+
+            .header-contact {
+                color: var(--white, #E6F4F2);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 18px;
+                font-weight: 500;
+                font-style: normal;
+                line-height: 100%;
+                /* 18px */
+                letter-spacing: 0.45px;
+            }
+        }
+
+        .header-sun {
+            img {
+                width: 25px;
+                height: 25px;
+                flex-shrink: 0;
+                margin-right: 30px;
+              
+            }
+        }
+    }
+
+}

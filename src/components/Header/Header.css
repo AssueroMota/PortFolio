@@ -1,0 +1,16 @@
+/* Initial state: hidden and off-screen to the left */
+
+
+@media (min-width:768px) {
+    .header-type {
+        opacity: 0;
+        transform: translateX(-100%);
+        transition: opacity 0.3s ease, transform 1s ease;
+    }
+
+    .header-logo:hover .header-type {
+        cursor: pointer;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

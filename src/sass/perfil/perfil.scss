@@ -1,0 +1,277 @@
+.Perfil-Container {
+    @media (min-width:1024px) {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 8rem;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+
+    }
+
+    // imagem
+    .grid-item-1 {
+        @media (min-width:1024px) {
+            grid-column: 2;
+            grid-row: 2;
+            // margin-top: -20rem;
+        }
+    }
+
+    .grid-item-2 {
+        @media (min-width:1024px) {
+            grid-column: 1;
+            grid-row: 2;
+        }
+
+    }
+
+    .Perfil-Social {
+        .Perfil-Social-2 {
+            margin-left: 2rem;
+        }
+
+        @media (min-width:1024px) {
+            display: flex;
+        }
+    }
+
+    .Perfil-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 128px;
+        margin-bottom: 64px;
+   
+
+        @media (min-width:1024px) and (max-width:1370px) {
+            margin-top: 0px;
+            // display: block;
+            margin-right: 2.5rem;
+            // margin-top: 6rem;
+        }
+
+        @media (min-width:1440px) and (max-width:1500px) {
+            margin-right: 2.5rem;
+            margin-top: 3rem;
+        }
+
+        @media (min-width:1501px) {
+            margin-right: 2rem;
+        }
+
+        img {
+            border-radius: 20px;
+            max-width: 382px;
+            
+
+            @media (max-width:320px) {
+                width: 300px;
+            }
+
+            @media (min-width:1024px) {
+                max-width: 283px;
+                max-height: 425px;
+                
+                position: -webkit-sticky; /* Prefijo -webkit- redundante, no es necesario */
+                position: sticky;
+                top: 0;
+
+            }
+        }
+    }
+
+    .Perfil-Title {
+        color: var(--purple__default, #7A4FEE);
+        text-align: center;
+        font-family: Mr Eaves XL Mod OT;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0.9px;
+        margin-bottom: 32px;
+
+        @media (min-width:1024px) {
+            text-align: start;
+            color: var(--purple__default, #7A4FEE);
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: 1.2px;
+            max-width: 597px;
+            height: 144px;
+        }
+
+        .Perfil-Title-span {
+            color: var(--white, #E6F4F2);
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: 0.9px;
+
+            @media (min-width:1024px) {
+                text-align: start;
+                max-width: 597px;
+                color: var(--white, #E6F4F2);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+
+    .Perfil-Describe {
+        color: var(--white, #E6F4F2);
+        text-align: center;
+        font-family: Mr Eaves XL Mod OT;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 165%;
+        letter-spacing: 0.4px;
+
+        @media (min-width:1024px) {
+
+            color: var(--white, #E6F4F2);
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 165%;
+            letter-spacing: 0.4px;
+            text-align: start;
+            margin-right: 190px;
+            max-width: 597px;
+            min-height: 104px;
+        }
+    }
+
+    .PerfilBtn {
+
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        @media (min-width:1024px) {
+            display: block;
+        }
+
+        .Perfil-Btn {
+            display: inline-flex;
+            padding: 16px;
+            align-items: center;
+            gap: 16px;
+            border-radius: 10px;
+            border: 1px solid var(--purple__black, #452796);
+            background: var(--purple__default, #7A4FEE);
+            margin: auto;
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+
+            img {
+                width: 20px;
+                height: 20px;
+            }
+
+            .Perfil-Cv {
+                color: var(--white, #E6F4F2);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 100%;
+                /* 18px */
+                letter-spacing: 0.45px;
+            }
+        }
+    }
+
+    .Perfil-Title-2-main {
+        margin-right: 1rem;
+
+        .Perfil-Title-2 {
+            color: var(--white, #E6F4F2);
+            text-align: center;
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            /* 36px */
+            letter-spacing: 0.9px;
+            margin-bottom: 2rem;
+
+            @media (min-width:1024px) {
+                color: var(--white, #E6F4F2);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 48px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                /* 48px */
+                letter-spacing: 1.2px;
+                text-align: start;
+                margin-bottom: 0;
+                margin-top: 2rem;
+                max-width: 597px;
+                height: 144px;
+            }
+
+            .Perfil-Title-span-2 {
+                color: var(--purple__default, #7A4FEE);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 36px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                letter-spacing: 0.9px;
+
+                @media (min-width:1024px) {
+                    color: var(--purple__default, #7A4FEE);
+                    font-family: Mr Eaves XL Mod OT;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 100%;
+                    letter-spacing: 1.2px;
+                    text-align: start;
+
+                }
+            }
+        }
+
+        .Perfil-Describe-2 {
+            color: var(--white, #E6F4F2);
+            text-align: center;
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 165%;
+            letter-spacing: 0.4px;
+            margin-bottom: 6rem;
+
+            @media (min-width:1024px) {
+                color: var(--white, #E6F4F2);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 165%;
+                /* 26.4px */
+                letter-spacing: 0.4px;
+                text-align: start;
+                margin-top: 2rem;
+                max-width: 597px;
+                height: 78px;
+            }
+        }
+    }
+}

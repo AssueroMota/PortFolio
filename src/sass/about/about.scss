@@ -1,0 +1,129 @@
+.About-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 276px;
+
+    .About-title {
+        color: var(--white, #E6F4F2);
+        text-align: center;
+        font-family: Mr Eaves XL Mod OT;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        /* 16.25px */
+        letter-spacing: 0.325px;
+        opacity: 1;
+        padding: 8px;
+        border-radius: 10px;
+        border: 1px solid var(--purple__black, #452796);
+        margin-bottom: 32px;
+
+        @media (min-width:1024px) {
+            color: var(--white, #E6F4F2);
+            text-align: center;
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            /* 18.75px */
+            letter-spacing: 0.375px;
+            display: inline-flex;
+            padding: 8px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 10px;
+            border: 1px solid var(--purple__black, #452796);
+            opacity: 1;
+        }
+    }
+
+    .About-Name {
+        color: var(--white, #E6F4F2);
+        text-align: center;
+        font-family: Mr Eaves XL Mod OT;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 38px */
+        letter-spacing: 0.95px;
+        max-width: 382px;
+
+        @media (min-width:1024px) {
+            color: var(--white, #E6F4F2);
+            text-align: center;
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            letter-spacing: 1.8px;
+            max-width: 725px;
+
+        }
+
+        .About-Name-span {
+            color: var(--purple__default, #7A4FEE);
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%;
+            letter-spacing: 0.95px;
+
+            @media (min-width:1024px) {
+                color: var(--purple__default, #7A4FEE);
+                font-family: Mr Eaves XL Mod OT;
+                font-size: 72px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 100%;
+                letter-spacing: 1.8px;
+            }
+        }
+    }
+
+    .About-Dev {
+        background-color: #7A4FEE;
+
+        color: var(--white, #E6F4F2);
+        text-align: center;
+        font-family: Mr Eaves XL Mod OT;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 38px */
+        letter-spacing: 0.95px;
+        margin-top: 8px;
+        max-width: 382px;
+        min-height: 38px;
+        border-radius: 10px;
+        padding: 8px;
+
+        @media (min-width:1024px) {
+            color: var(--white, #E6F4F2);
+            text-align: center;
+            font-family: Mr Eaves XL Mod OT;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%;
+            /* 72px */
+            letter-spacing: 1.8px;
+            min-width: 697px;
+        }
+    }
+
+
+
+
+}

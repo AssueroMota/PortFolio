@@ -1,0 +1,36 @@
+@import url(header/header.scss);
+@import url(about/about.scss);
+@import url(projects/projects.scss);
+@import url(numbers/numbers.scss);
+@import url(perfil/perfil.scss); 
+@import url(curses/curses.scss);
+@import url(service/service.scss);
+@import url(contact/contact.scss);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+@font-face {
+    font-family: 'Mr Eaves XL Mod OT';
+    src: url('../../public/fonts/FontsFree-Net-MrEavesXLModOT-Reg.ttf') format('woff2'),
+         url('../../public/fonts/FontsFree-Net-MrEavesXLModOT-Reg.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Mr Eaves XL Mod Ultra';
+    src: url('../../public/fonts/MrEavesXLModOT-Ultra.ttf') format('woff2'),
+         url('../../public/fonts/MrEavesXLModOT-Ultra.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background: var(--black, #1E1F22);
+    // background: var(--white, #E6F4F2);
+}
+
+
+
+
