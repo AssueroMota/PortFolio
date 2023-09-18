@@ -9,7 +9,7 @@ import Numbers from './components/Numbers/Numbers'
 import Perfil from './components/Perfil/Perfil'
 import Projects from './components/Projects/Projects'
 import Qualifications from './components/Qualifications/Qualifications'
-import JavaScript from './components/Qualifications/js/script'
+
 import Service from './components/Service/Service'
 
 function App() {
