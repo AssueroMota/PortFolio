@@ -1,8 +1,8 @@
 import React from "react";
 import example from '../../assets/img/projects/projects.jpg'
 import example1 from '../../assets/img/projects/projects0.jpg'
-import example2 from '../../assets/img/projects/projects1.jpg'
-import example0 from '../../assets/img/projects/projects2.jpg'
+import example2 from '../../assets/img/projects/project3.jpg'
+import example0 from '../../assets/img/projects/project2.jpg'
 import SafariHeader from "../Safari/Safari";
 
 const ShowProjects = [
