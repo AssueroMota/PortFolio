@@ -10,7 +10,7 @@ const About = () => {
 
     return (
         <>
-            <div className="About-container">
+            <div className="About-container" data-aos="fade-up" data-aos-duration="1000">
                 <p className="About-title">A tecnologia é a força motriz por trás da mudança constante</p>
                 <h1 className="About-Name">Olá, sou <span className="About-Name-span">Assuero Mota</span>, especialista em</h1>
           

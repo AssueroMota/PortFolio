@@ -8,31 +8,31 @@ import SafariHeader from "../Safari/Safari";
 const ShowProjects = [
     {
         image: example,
-        tech: 'React',
+        tech: 'React + Vite',
         tech2: 'TypeScript',
         tech3: 'Scss',
-        name: 'Portfolio pessoal'
+        name: 'Karty Golf'
     },
     {
         image: example1,
-        tech: 'React',
+        tech: 'React + Vite ',
         tech2: 'TypeScript',
         tech3: 'Scss',
-        name: 'Portfolio pessoal'
+        name: 'Pia Agency'
     },
     {
         image: example0,
-        tech: 'React',
+        tech: 'React + Vite',
         tech2: 'TypeScript',
         tech3: 'Scss',
-        name: 'Portfolio pessoal'
+        name: 'HumpBack'
     },
     {
         image: example2,
-        tech: 'React',
+        tech: 'React + Vite',
         tech2: 'TypeScript',
         tech3: 'Scss',
-        name: 'Portfolio pessoal'
+        name: 'Selden Ink'
     },
 
 ]
@@ -40,12 +40,12 @@ const ShowProjects = [
 
 const Projects = () => {
     return (
-        <>
+        <> 
             <div className="Projects-container">
                 <div className="Projects-container-title">
-                    <h1 className="Projects-title">projetos</h1>
+                    <h1 className="Projects-title" data-aos-anchor-placement="top-bottom" data-aos="fade-down">projetos</h1>
                 </div>
-                <div className="Projects-main">
+                <div className="Projects-main" data-aos="zoom-in" data-aos-duration="1200">
                     {ShowProjects.map((item, index) => {
                         // Adicione a classe "second-column" à segunda coluna
                         const columnClass = index === 1 ? "second-column" : "";

@@ -1,7 +1,9 @@
 import React from "react";
 import me from '../../assets/img/perfil/me.jpg'
 import down from '../../assets/img/perfil/download.svg'
+
 const Perfil = () => {
+    const pdfUrl = '../../../public/files/document/AssueroCv.pdf';
     return (
         <>
             <div className="Perfil-Container">
@@ -17,7 +19,9 @@ const Perfil = () => {
                         <div className="PerfilBtn">
                             <div className="Perfil-Btn">
                                 <img src={down} alt="" />
-                                <p className="Perfil-Cv">Baixar CV </p>
+                                <a href={pdfUrl} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
+                                    <p className="Perfil-Cv" >Baixar CV </p>
+                                </a>
                             </div>
                         </div>
                     </div>

@@ -43,6 +43,10 @@
         margin-bottom: 64px;
    
 
+        // @media (min-width:1024px) {
+   
+        // }
+
         @media (min-width:1024px) and (max-width:1370px) {
             margin-top: 0px;
             // display: block;
@@ -62,7 +66,7 @@
         img {
             border-radius: 20px;
             max-width: 382px;
-            
+
 
             @media (max-width:320px) {
                 width: 300px;
@@ -71,10 +75,7 @@
             @media (min-width:1024px) {
                 max-width: 283px;
                 max-height: 425px;
-                
-                position: -webkit-sticky; /* Prefijo -webkit- redundante, no es necesario */
-                position: sticky;
-                top: 0;
+
 
             }
         }

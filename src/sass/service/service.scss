@@ -1,4 +1,7 @@
 .Service-container {
+
+    margin: 1rem;
+
     @media (min-width:1024px) {
         margin-left: 32px;
         margin-top: 256px;
@@ -31,10 +34,13 @@
     }
 
     .Service-container-main {
-        display: flex;
-        column-gap: 2rem;
-        max-width: 819px;
-        margin-right: 504px;
+        @media (min-width:1024px) {
+            display: flex;
+            column-gap: 2rem;
+            max-width: 819px;
+            margin-right: 504px;
+ 
+        }
 
         .Service-container-2 {
 

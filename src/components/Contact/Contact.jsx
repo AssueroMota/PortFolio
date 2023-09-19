@@ -9,9 +9,9 @@ const Contact = () => {
 
 
     const img = [
-        { link: '#', icone: github },
-        { link: '#', icone: linkedin },
-        { link: '#', icone: whatsapp }
+        { link: 'https://github.com/AssueroMota', icone: github },
+        { link: 'https://www.linkedin.com/in/assueromota/', icone: linkedin },
+        { link: 'https://api.whatsapp.com/send?phone=5581989957462&text=', icone: whatsapp }
     ]
     const currentDate = new Date();
     const monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
@@ -39,7 +39,7 @@ const Contact = () => {
                         {img.map((img, index) => {
                             return (
                                 <div key={index}>
-                                    <a href={img.link}><img src={img.icone} /></a>
+                                    <a href={img.link} target="_blank"><img src={img.icone} /></a>
                                 </div>
                             )
                         }
@@ -52,8 +52,14 @@ const Contact = () => {
                     <p className="MyName">Assuero Mota © 2023</p>
                 </div>
                 <div className="Contact-back">
-                    <img src={caretUp} alt="" />
-                    <p className="Contact-describe">Voltar ao topo</p>
+                    <img
+                        src={caretUp}
+                        alt=""
+                        className="jump-animation"
+                    />
+                    <a href='#' style={{ textDecoration: 'none' }}>
+                        <p className="Contact-describe">Voltar ao topo</p>
+                    </a>
                 </div>
             </div>
         </>

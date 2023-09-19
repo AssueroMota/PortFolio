@@ -191,3 +191,18 @@
         }
     }
 }
+
+
+@keyframes jump {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+}
+
+/* Defina a classe que aplicará a animação infinitamente */
+.jump-animation {
+    animation: jump 1s infinite;
+}

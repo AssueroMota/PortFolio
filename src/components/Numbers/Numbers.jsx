@@ -1,12 +1,12 @@
-import React from "react";
-
+import React, { useEffect, useState } from "react";
+import CountUp from "react-countup";
 const Numbers = () => {
 
     const NumberExp = [
         {
             icone: '+',
-            number: '11',
-            describe: 'Projetos Profissionais'
+            number: '31',
+            describe: 'Projetos Realizados na Carreira'
         },
         {
             icone: '+',
@@ -15,19 +15,20 @@ const Numbers = () => {
         },
         {
             icone: '+',
-            number: '03',
+            number: '04',
             describe: 'Linguagens de programação'
         },
         {
             icone: '+',
-            number: '49',
+            number: '51',
             describe: 'Cursos extracurrículares'
         },
     ]
+
     return (
         <>
-   
-            <div className="Numbers-container">
+
+            <div className="Numbers-container ">
                 {NumberExp.map((item, index) => {
                     return (
                         <div key={index} className="Numbers-container-2">
@@ -37,10 +38,11 @@ const Numbers = () => {
                                     {item.icone}
                                 </div>
                                 <div className="Numbers-Numbers">
-                                    {item.number}
+                                    <CountUp start={0} end={item.number} duration={20} separator="," />
+                                    {/* {item.number} */}
                                 </div>
                             </div>
-                            
+
                             <div className="Numbers-container-describe ">
                                 {item.describe}
                             </div>
@@ -51,7 +53,7 @@ const Numbers = () => {
 
                 )}
             </div>
-      
+
         </>
     )
 }

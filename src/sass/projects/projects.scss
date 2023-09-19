@@ -114,6 +114,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media (max-width:1024px) {
+                margin-top: 3rem;
+                
+            }
         
             .tech {
                 display: flex;
@@ -156,6 +160,9 @@
                 margin: auto;
                 margin-top: 1rem;
                 margin-bottom: 2rem;
+                @media (max-width:1024px) {
+                    margin-bottom:4.5rem; 
+                }
             }
         }
     }

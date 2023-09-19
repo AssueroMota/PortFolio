@@ -7,20 +7,38 @@
     letter-spacing: 2.3px;
     color: transparent;
     -webkit-text-stroke: 2px #7A4FEE;
-    /* Largura e cor do contorno */
     text-stroke: 2px #7A4FEE;
     min-width: 185%;
     margin-top: 8rem;
     white-space: nowrap;
-    /* Impede que as palavras quebrem em várias linhas */
     overflow-x: hidden;
-    /* Oculta o conteúdo que estiver fora do contêiner */
     position: relative;
 
-    /* Permite o posicionamento absoluto das palavras */
+    @media (max-width:1024px) {
+        font-size: 63px;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+        min-width: 574%;
+        overflow-x: hidden;
+        animation: scrollLeftMobile 10s linear infinite;
+    }
+
+
     @keyframes scrollLeft {
         from {
             transform: translateX(100%);
+            /* Começa fora da tela à direita */
+        }
+
+        to {
+            transform: translateX(-100%);
+            /* Move-se para fora da tela à esquerda */
+        }
+    }
+
+    @keyframes scrollLeftMobile {
+        from {
+            transform: translateX(20%);
             /* Começa fora da tela à direita */
         }
 
