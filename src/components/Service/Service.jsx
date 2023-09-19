@@ -16,11 +16,11 @@ const Service = () => {
     return (
         <>
             <div className="Service-container">
-                <h2 className="Service-h2"> Serviços</h2>
+                <h2 className="Service-h2" data-aos="fade-right" data-aos-duration="800"> Serviços</h2>
                 <div className="Service-container-main">
                     {op.map((item, index) => {
                         return (
-                            <div key={index} className="Service-container-2">
+                            <div key={index} className="Service-container-2" data-aos="fade-right" data-aos-duration="1200">
                                 <div className="Service-container-main-2">
                                     <h3 className="Service-title">{item.title}</h3>
                                     <p className="Service-describe">{item.describe}</p>

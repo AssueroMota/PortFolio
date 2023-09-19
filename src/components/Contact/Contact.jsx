@@ -21,11 +21,11 @@ const Contact = () => {
     return (
         <>
             <div className="Contact-container">
-                <div className="Contact-ctn">
+                <div className="Contact-ctn" data-aos="fade-left" data-aos-duration="800">
                     <div className="Contact-Fit"></div>
                     <h2 className="Contact-Title">Contato</h2>
                 </div>
-                <div className="Contact-container-2">
+                <div className="Contact-container-2" data-aos="fade-right" data-aos-duration="800">
                     <div className="Contact-date">
                         <img src={bulletAvailable} alt="" />
                         <span>Agenda aberta para hoje dia {currentDay} de {currentMonth} de 2023</span>
@@ -47,11 +47,11 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className="Contact-union">
-                <div className="Contact-name">
+            <div className="Contact-union" >
+                <div className="Contact-name" data-aos="fade-right" data-aos-duration="800">
                     <p className="MyName">Assuero Mota © 2023</p>
                 </div>
-                <div className="Contact-back">
+                <div className="Contact-back" data-aos="fade-left" data-aos-duration="800">
                     <img
                         src={caretUp}
                         alt=""
