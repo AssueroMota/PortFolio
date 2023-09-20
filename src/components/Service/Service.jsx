@@ -2,12 +2,12 @@ import React from "react";
 
 const op = [
     {
-        title: 'Desenvolvimento Front-End Web/Mobile',
-        describe: "Experiência em tecnologias JavaScript (React Native, React, Vue.js, Angular) para aplicações Web e Mobile também tenho expertise na utilização de frameworks CSS,incluindo Bootstrap, Tailwind CSS e Sass/SCSS, para criar designs modernos e responsivos"
+        title: 'Front-End Web/Mobile Development',
+        describe: "Experience in JavaScript technologies (React Native, React, Vue.js, Angular) for Web and Mobile applications. I also have expertise in using CSS frameworks, including Bootstrap, Tailwind CSS and Sass/SCSS, to create modern and responsive designs."
     },
     {
-        title: 'Desenvolvimento Back-End Web',
-        describe: "Possuo expertise em desenvolvimento back-end com PHP, com ênfase na integração eficiente de bancos de dados, incluindo MongoDB e MySQL. Isso me permite criar sistemas robustos, como CMS, e-commerce e APIs REST, garantindo a funcionalidade, escalabilidade e desempenho necessários para atender às demandas dos projetos web."
+        title: 'Back-End Web Development',
+        describe: "I have expertise in back-end development with PHP, with an emphasis on the efficient integration of databases, including MongoDB and MySQL. This allows me to create robust systems, such as CMS, e-commerce and REST APIs, ensuring the necessary functionality, scalability and performance to meet the demands of web projects."
     }
 ]
 
@@ -16,7 +16,7 @@ const Service = () => {
     return (
         <>
             <div className="Service-container">
-                <h2 className="Service-h2" data-aos="fade-right" data-aos-duration="800"> Serviços</h2>
+                <h2 className="Service-h2" data-aos="fade-right" data-aos-duration="800"> Services</h2>
                 <div className="Service-container-main">
                     {op.map((item, index) => {
                         return (

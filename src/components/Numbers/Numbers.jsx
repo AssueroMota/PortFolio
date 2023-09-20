@@ -6,22 +6,22 @@ const Numbers = () => {
         {
             icone: '+',
             number: '31',
-            describe: 'Projetos Realizados na Carreira'
+            describe: 'Projects carried out in my career'
         },
         {
             icone: '+',
             number: '03',
-            describe: 'Anos de Experiência Profissional'
+            describe: 'Years of Professional Experience'
         },
         {
             icone: '+',
             number: '04',
-            describe: 'Linguagens de programação'
+            describe: 'Programming languages'
         },
         {
             icone: '+',
             number: '51',
-            describe: 'Cursos extracurrículares'
+            describe: 'Extracurricular courses'
         },
     ]
 

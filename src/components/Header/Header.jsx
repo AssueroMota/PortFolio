@@ -35,7 +35,7 @@ const Header = () => {
 
                 <div className="header-notepad">
                     <img className="header-bullet" src={bulletAvailable} alt="" />
-                    <span className="header-note">Agenda aberta para hoje dia {currentDay} de {currentMonth} de 2023</span>
+                    <span className="header-note">Open schedule for today, {currentMonth} {currentDay}, 2023</span>
                 </div>
 
                 <div className="header-container-2">
@@ -45,7 +45,7 @@ const Header = () => {
                     </div>
                     <div className="header-btn">
                         <img className="header-send" src={send} alt="" />
-                        <span className="header-contact" >Contato</span>
+                        <span className="header-contact" >Contact</span>
                     </div>
                     <div className="header-sun" onClick={toggletheme}>
                         {isSun ? (<img src={sun} alt="" />) : (<img src={moon} alt="" />)}

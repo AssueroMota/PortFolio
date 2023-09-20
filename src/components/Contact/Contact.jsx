@@ -14,7 +14,7 @@ const Contact = () => {
         { link: 'https://api.whatsapp.com/send?phone=5581989957462&text=', icone: whatsapp }
     ]
     const currentDate = new Date();
-    const monthNames = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
     const currentMonth = monthNames[currentDate.getMonth()];
     const currentDay = currentDate.getDate();
 
@@ -23,12 +23,12 @@ const Contact = () => {
             <div className="Contact-container">
                 <div className="Contact-ctn" data-aos="fade-left" data-aos-duration="800">
                     <div className="Contact-Fit"></div>
-                    <h2 className="Contact-Title">Contato</h2>
+                    <h2 className="Contact-Title">Contact</h2>
                 </div>
                 <div className="Contact-container-2" data-aos="fade-right" data-aos-duration="800">
                     <div className="Contact-date">
                         <img src={bulletAvailable} alt="" />
-                        <span>Agenda aberta para hoje dia {currentDay} de {currentMonth} de 2023</span>
+                        <span>Open schedule for today, {currentMonth} {currentDay}, 2023</span>
                     </div>
 
                     <div className="Contact-container-email">
@@ -48,17 +48,17 @@ const Contact = () => {
                 </div>
             </div>
             <div className="Contact-union" >
-                <div className="Contact-name" data-aos="fade-right" data-aos-duration="800">
+                <div className="Contact-name">
                     <p className="MyName">Assuero Mota © 2023</p>
                 </div>
-                <div className="Contact-back" data-aos="fade-left" data-aos-duration="800">
+                <div className="Contact-back">
                     <img
                         src={caretUp}
                         alt=""
                         className="jump-animation"
                     />
                     <a href='#' style={{ textDecoration: 'none' }}>
-                        <p className="Contact-describe">Voltar ao topo</p>
+                        <p className="Contact-describe">Back to the top</p>
                     </a>
                 </div>
             </div>

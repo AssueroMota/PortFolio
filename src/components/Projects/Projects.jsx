@@ -12,7 +12,7 @@ const ShowProjects = [
         image: SeldenInk,
         tech: 'React + Vite',
         tech2: 'TypeScript',
-        tech3: 'Scss',
+        tech3: 'Scss in JavaScript',
         name: 'SeldenInk',
         link: 'https://seldenink.vercel.app/'
     },
@@ -20,7 +20,7 @@ const ShowProjects = [
         image: HumpBack,
         tech: 'React + Vite ',
         tech2: 'TypeScript',
-        tech3: 'Scss',
+        tech3: 'Scss in JavaScript',
         name: 'HumpBack',
         link: 'https://humpback-one.vercel.app/'
     },
@@ -28,7 +28,7 @@ const ShowProjects = [
         image: Golf,
         tech: 'React + Vite',
         tech2: 'TypeScript',
-        tech3: 'Scss',
+        tech3: 'Scss in JavaScript',
         name: 'Karty Golf',
         link: 'https://karty-golf.vercel.app/'
     },
@@ -36,7 +36,7 @@ const ShowProjects = [
         image: imgIdeias,
         tech: 'React Native',
         tech2: 'Node',
-        tech3: 'CSS',
+        tech3: 'CSS in JavaScript',
         name: 'Ideas',
         link: 'https://ideas-front-end.vercel.app/'
     },
@@ -44,7 +44,7 @@ const ShowProjects = [
         image: ImgPia,
         tech: 'React + Vite',
         tech2: 'TypeScript',
-        tech3: 'Scss',
+        tech3: 'Scss in JavaScript',
         name: 'Agency Pia',
         link: 'https://www.bigapplepia.com/'
 
@@ -54,7 +54,7 @@ const ShowProjects = [
         image: Aguia,
         tech: 'Vue.js',
         tech2: 'TypeScript',
-        tech3: 'Scss',
+        tech3: 'Scss in JavaScript',
         name: 'Aguias MarTech',
         link: 'https://aguiasmartech.vercel.app/'
     },
@@ -68,9 +68,9 @@ const Projects = () => {
         <>
             <div className="Projects-container">
                 <div className="Projects-container-title">
-                    <h1 className="Projects-title" data-aos-anchor-placement="top-bottom" data-aos="fade-down">Works</h1>
+                    <h1 className="Projects-title" data-aos-anchor-placement="top-bottom" data-aos="fade-down">projects</h1>
                 </div>
-                <div className="Projects-main" data-aos="zoom-in" data-aos-duration="1200">
+                <div className="Projects-main">
                     {ShowProjects.map((item, index) => {
                         // Adicione a classe "second-column" à segunda coluna
                         const columnClass = index === 1 ? "second-column" : "";
@@ -79,7 +79,7 @@ const Projects = () => {
                         return (
                             <div key={index}>
                                 {/* <div className="Projects-container-img"> */}
-                                <div className={`Projects-container-img ${columnClass} ${column4Class} ${column6Class}`}>
+                                <div className={`Projects-container-img ${columnClass} ${column4Class} ${column6Class}`} data-aos="fade-up">
                                     {/* <div className="window"></div> */}
                                     <SafariHeader />
                                     <a href={item.link} style={{ textDecoration: 'none' }}>
