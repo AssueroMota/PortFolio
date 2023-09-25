@@ -87,7 +87,7 @@ const Projects = () => {
         <>
             <div className="Projects-container">
                 <div className="Projects-container-title">
-                    <h1 className="Projects-title" data-aos-anchor-placement="top-bottom" data-aos="fade-down">Web Projects</h1>
+                    <h1 className="Projects-title" data-aos-anchor-placement="top-bottom" data-aos="fade-down">Projects</h1>
                 </div>
                 <div className="Projects-main">
                     {ShowProjects.map((item, index) => {
