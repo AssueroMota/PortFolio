@@ -28,7 +28,7 @@ const About = () => {
                 <p className="About-Dev">
                     <Typewriter
                         options={{
-                            strings: ["Full Stack Engineer", "Mobile Developer", "Data Analyst","I.T Analyst","Network Technician","Innovation-driven IT"],
+                            strings: ["Full Stack Web", "Mobile Developer", "Data Analyst","IT Analyst","Network Technician","Innovation-driven IT"],
                             autoStart: true, 
                             loop: true, 
                             delay: 75, 
