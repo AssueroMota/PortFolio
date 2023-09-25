@@ -16,12 +16,7 @@ const About = () => {
                 <p className="About-title">Technology is the driving force behind constant change</p>
                 <h1 className="About-Name">Hi, I'm <span className="About-Name-span">Assuero Mota</span>, Knowledgeable in</h1>
 
-                {/* <div class="About-Dev-container">
-                    <span className="About-Dev">Desenvolvimento web</span>
-                    <span className="About-Dev">Desenvolvimento web</span>
-                    <span className="About-Dev">Desenvolvimento web</span>
-                </div> */}
-
+    
                 {/* <p className="About-Dev">
                         {texts[currentTextCounter]}
                     </p> */}

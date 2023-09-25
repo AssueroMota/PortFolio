@@ -5,13 +5,15 @@ import HumpBack from '../../assets/img/projects/HumpBack.jpg'
 import imgIdeias from '../../assets/img/projects/imgIdeias.jpg'
 import ImgPia from '../../assets/img/projects/ImgPia.jpg'
 import SeldenInk from '../../assets/img/projects/SeldenInk.jpg'
+import Litoraneus from '../../assets/img/projects/ProjectTech.png'
+import GrauTech from '../../assets/img/projects/Commerce-GrauTech.png'
 import SafariHeader from "../Safari/Safari";
 
 const ShowProjects = [
     {
         image: SeldenInk,
         tech: 'React + Vite',
-        tech2: 'TypeScript',
+        tech2: 'TypeScript + Node',
         tech3: 'Scss in JavaScript',
         name: 'SeldenInk',
         link: 'https://seldenink.vercel.app/'
@@ -57,6 +59,23 @@ const ShowProjects = [
         tech3: 'Scss in JavaScript',
         name: 'Aguias MarTech',
         link: 'https://aguiasmartech.vercel.app/'
+    }, 
+
+    {
+        image: GrauTech,
+        tech: 'React+ Vite',
+        tech2: 'TypeScript',
+        tech3: 'Scss in JavaScript',
+        name: 'E-commerce GrauTech',
+        link: 'https://assueromota.github.io/Computer-Hardware-E-commerce-Website/assets/html/processadores.html'
+    },
+    {
+        image: Litoraneus,
+        tech: 'Html',
+        tech2: 'JavaScript',
+        tech3: 'CSS',
+        name: 'Litoraneus',
+        link: 'https://assueromota.github.io/ServiceTechInfo/'
     },
 
 
@@ -68,7 +87,7 @@ const Projects = () => {
         <>
             <div className="Projects-container">
                 <div className="Projects-container-title">
-                    <h1 className="Projects-title" data-aos-anchor-placement="top-bottom" data-aos="fade-down">projects</h1>
+                    <h1 className="Projects-title" data-aos-anchor-placement="top-bottom" data-aos="fade-down">Web Projects</h1>
                 </div>
                 <div className="Projects-main">
                     {ShowProjects.map((item, index) => {
@@ -76,10 +95,11 @@ const Projects = () => {
                         const columnClass = index === 1 ? "second-column" : "";
                         const column4Class = index === 3 ? "four-column" : "";
                         const column6Class = index === 5 ? "six-column" : "";
+                        const column8Class = index === 7 ? "eight-column" : "";
                         return (
                             <div key={index}>
                                 {/* <div className="Projects-container-img"> */}
-                                <div className={`Projects-container-img ${columnClass} ${column4Class} ${column6Class}`} data-aos="fade-up">
+                                <div className={`Projects-container-img ${columnClass} ${column4Class} ${column6Class} ${column8Class}`} data-aos="fade-up">
                                     {/* <div className="window"></div> */}
                                     <SafariHeader />
                                     <a href={item.link} style={{ textDecoration: 'none' }}>
