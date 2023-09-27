@@ -6,6 +6,7 @@
 @import url(curses/curses.scss);
 @import url(service/service.scss);
 @import url(contact/contact.scss);
+
 *{
     margin: 0;
     padding: 0;
@@ -32,6 +33,7 @@ body{
     overflow-x: hidden;
 }
 
-
-
+#root {
+    
+}
 
